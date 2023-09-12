@@ -1,0 +1,64 @@
+.material-symbols-outlined {
+	background-color: #595E89;
+	margin-right: 5px;
+	font-size: 13px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.card__container {
+	width: 325px;
+	height: 450px;
+	margin: auto;
+	background-color: #c1c1c1;
+	margin: 20px 5px;
+	border: 1px solid #595E89;
+	border-radius: 10px;
+}
+
+.card__container .img__card__container {
+	width: 325px;
+	height: 200px;
+}
+
+.card__container .content__card {
+	background-color: #595E89;
+	padding-left: 35px;
+	display: flex;
+	height: 250px;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.card__container .content__card .card__title {
+	margin-top: 15px;
+}
+
+.card__container .content__card .card__desciption {
+	font-size: 15px;
+	margin-top: 15px;
+	max-width: 25ch;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.card__container .content__card .card__details {
+	width: 70%;
+	height: 25px;
+	display: flex;
+	margin-top: 15px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__container .content__card .card__details p {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 13px;
+}
