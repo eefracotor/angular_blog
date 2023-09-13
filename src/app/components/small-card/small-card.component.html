@@ -1,13 +1,11 @@
 <div class="card__container">
-	<img class="img__card__container" src="../../../assets/images/700487.png" alt="sem imagem">
+	<img class="img__card__container" src="{{ photoCover }}" alt="sem imagem" />
 	<div class="content__card">
 		<span class="material-symbols-outlined">
 			thumb_up
 		</span>
-		<h2 class="card__title">My blog made with Angular's last version</h2>
-		<p class="card__desciption">
-			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nostrum corrupti nesciunt blanditiis corporis deleniti nam minima aliquam esse asperiores error quisquam aperiam necessitatibus minus natus maiores cupiditate, non nisi.
-		</p>
+		<h2 class="card__title">{{ cardTitle }}</h2>
+		<p class="card__desciption">{{ cardDescription }}</p>
 		<div class="card__details">
 			<p>
 				<span class="material-symbols-outlined">
