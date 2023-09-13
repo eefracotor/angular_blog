@@ -1,0 +1,28 @@
+ul > li {
+	list-style: none;
+}
+.nav__bar__top {
+	width: 90%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	border: 1px solid #c1c1c135;
+	border-radius: 15px;
+	top: 20px;
+	left: 5%;
+}
+
+.nav__bar__top .nav__bar__menu {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.nav__bar__top .nav__bar__menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav__bar__top .nav__bar__menu ul li img {
+ width: 50px;
+ height: 50px;
+}

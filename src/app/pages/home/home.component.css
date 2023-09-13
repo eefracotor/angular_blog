@@ -5,9 +5,9 @@
 	margin: auto;
 }
 
-.articles .card__top, .articles .contanier__small__card {
+.articles .card__top {
 	width: 100%;
-	max-height: 60vh;
+	height: 60vh;
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -34,7 +34,7 @@
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
     column-width: 33%;
-	max-height: 60vh;
+	height: 60vh;
 	overflow: scroll;
 	overflow-x: hidden;
 }

@@ -1,0 +1,10 @@
+@media screen and (max-width:1049px) {
+
+	.articles .card__top {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
