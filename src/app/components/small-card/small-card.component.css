@@ -35,6 +35,9 @@
 }
 
 .card__container .content__card .card__title {
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
 	margin-top: 15px;
 }
 

@@ -8,8 +8,7 @@ ul > li {
 	align-items: center;
 	border: 1px solid #c1c1c135;
 	border-radius: 15px;
-	top: 20px;
-	left: 5%;
+	margin: 20px auto;
 }
 
 .nav__bar__top .nav__bar__menu {

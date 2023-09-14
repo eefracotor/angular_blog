@@ -7,5 +7,8 @@
 }
 body {
 	 background-color: #3F406C;
+ }
 
+ a {
+	text-decoration: none;
  }
